@@ -9,6 +9,9 @@ This repository provides a reference implementation of *node2vec* as described i
 The *node2vec* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph. Please check the [project page](https://snap.stanford.edu/node2vec/) for more details. 
 
 ### Basic Usage
+#### Requirement (Added by Knt44kw)
+To install libraries for running scripts in this repository, execute the following command from the project home directory:<br/>
+``pip install -r requirements.txt``
 
 #### Example
 To run *node2vec* on Zachary's karate club network, execute the following command from the project home directory:<br/>
