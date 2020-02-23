@@ -56,3 +56,14 @@ If you find *node2vec* useful for your research, please consider citing the foll
 Please send any questions you might have about the code and/or the algorithm to <adityag@cs.stanford.edu>.
 
 *Note:* This is only a reference implementation of the *node2vec* algorithm and could benefit from several performance enhancement schemes, some of which are discussed in the paper.
+
+### ディレクトリについて
+ `document`: Facebookのデータセットに関する説明が書かれたテキストファイルを格納したディレクトリ<br>
+ `emb`: node2vecによりベクトル化された特徴ベクトルを格納したディレクトリ<br>
+ `facebook`: Facebookのソーシャルグラフに関する属性を表した元データを格納したディレクトリ<br>
+ `graph`: ソーシャルグラフのデータセットが格納されたディレクトリ<br>
+ `ipynb`: node2vecと機械学習について属性推定を行ったスクリプトをまとめたディレクトリ<br>
+ `src`: node2vecを実行するためのスクリプトをまとめたディレクトリ．今回は，これらを一部改変し，node2vecにより友人関係をベクトル化した．<br>
+
+### 成果物の数値的結果などについて
+`result`というディレクトリに`result_presentation.pdf`に格納
